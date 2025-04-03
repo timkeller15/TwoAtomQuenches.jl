@@ -38,7 +38,7 @@ $$
 where $E_0$ is the energy of the unperturbed ground state. We also use the spectral function
 
 $$
-A(\omega)=2\pi \: \text{Re} \int_{-\infty}^{\infty}e^{i\omega t}\nu(t)dt = 2\pi\sum_{n}\left|a_{n}\right|^{2}\delta\left(\omega-\omega_{0}+\omega'_{n}\right) 
+A(\omega)=2\pi\text{Re} \int_{-\infty}^{\infty}e^{i\omega t}\nu(t)dt = 2\pi\sum_{n}\left|a_{n}\right|^{2}\delta\left(\omega-\omega_{0}+\omega'_{n}\right) 
 $$
 
 to evaluate the response of the system. 
