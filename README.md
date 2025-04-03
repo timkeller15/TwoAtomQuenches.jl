@@ -12,7 +12,7 @@ We consider a system of two particles trapped in a one-dimensional harmonic pote
 In dimensionless harmonic-oscillator units the Hamiltonian reads 
 
 $$
-\mathcal{H} =\sum_{j=1}^{2}  \left(  -\frac{1}{2}\frac{\partial^{2}}{\partial x _{j}^{2}}+\frac{1}{2}x_{j}^{2} + \kappa\delta (x_{j})\theta(\tau)\right) + g\delta (|x_{1}-x_{2}|)\, .
+\mathcal{H} =\sum_{j=1}^{2}  \left(  -\frac{1}{2}\frac{\partial^{2}}{\partial x _{j}^{2}}+\frac{1}{2}x_{j}^{2} + \kappa\delta (x_{j})\theta(\tau)\right) + g\delta (|x_{1}-x_{2}|) .
 $$
 
 The state of the system at some time $t>0$ after the quench is given by
@@ -53,7 +53,7 @@ $$
 The kinetic energy term expressed in this basis reads
 
 $$
-T_{ij}=\begin{cases}\frac{\pi^2}{6}\left(1-\frac{1}{N^2}\right) &i=j \\[0.5em] 
+T_{ij}=\begin{cases}\frac{\pi^2}{6}\left(1-\frac{1}{N^2}\right) &i=j \\
 (-1)^{(i-j)}\frac{\pi^2}{N^2}\frac{\text{cos}[\pi(i-j)/N]}{\text{sin}^2[\pi(i-j)/N]} &i\neq j 
 \end{cases}
 $$
@@ -78,7 +78,7 @@ $$
 The odd eigenstates of the harmonic potential vanish at $x=0$ and therefore they are unaffected by the interaction. The even eigenstates of the relative motion are given by 
 
 $$
-\psi_{i}(x)=\mathcal{N}_{i}U\left(\frac{1}{4}-\frac{E_{i}}{2},\frac{1}{2},x^2\right)e^{-x^2/2} \, ,  \qquad i=0,2,4,\ldots
+\psi_{i}(x)=\mathcal{N}_{i}U\left(\frac{1}{4}-\frac{E_{i}}{2},\frac{1}{2},x^2\right)e^{-x^2/2}  ,  \qquad i=0,2,4,\ldots
 $$
 
 with the confluent hypergeometric function of the second kind $U(a,b,z)$ and a normalization constant $\mathcal{N}_i$. The corresponding eigenenergy is determined from the solutions of
